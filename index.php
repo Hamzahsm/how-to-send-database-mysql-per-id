@@ -48,7 +48,7 @@ $query = query("SELECT * FROM customer_id");
                 <tr>
                     <td><?= $i ?></td>
                     <td><?= $data['name'] ?></td>
-                    <td><a href="./detail.php?<?= $data['id']; ?>"></a></td>
+                    <td><a href="./detail.php?id=<?= $data['id']; ?>">Detail Order</a></td>
                 </tr>
                 <?php $i++; ?>
             <?php endforeach; ?>

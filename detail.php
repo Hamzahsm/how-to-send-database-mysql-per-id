@@ -26,22 +26,22 @@ $result    = mysqli_fetch_array($query);
         <tbody>
             <tr>
                 <th>Name</th>
-                <td><?php $result['name'] ?></td>
+                <td><?php echo $result['name'] ?></td>
             </tr>
 
             <tr>
                 <th>Order</th>
-                <td><?php $result['order'] ?></td>
+                <td><?php echo $result['order'] ?></td>
             </tr>
 
             <tr>
                 <th>Address</th>
-                <td><?php $result['address'] ?></td>
+                <td><?php echo $result['address'] ?></td>
             </tr>
 
             <tr>
                 <th>Telepone</th>
-                <td><?php $result['telepone'] ?></td>
+                <td><?php echo $result['telepone'] ?></td>
             </tr>
         </tbody>
     </table>
